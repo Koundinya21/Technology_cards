@@ -18,8 +18,7 @@
 .card-item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   background-color: white;
   border-radius: 20px;
   padding-left: 24px;
@@ -52,13 +51,14 @@
   align-self: flex-start;
 }
 
-.img-container {
+.container {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: flex-end;
 }
 .card-img {
   width: 75px;
   height: 75px;
-  display: flex;
-  align-items: flex-end;
+  align-self: flex-end;
 }
