@@ -46,12 +46,12 @@ const App = () => (
         professionals involved in Product Development
       </p>
       <ul className="card-list">
-        {/* {cardsList.map(each => (
-          <CardItem cardDetails={each} key={each.id} />
-        ))} */}
-        {cardsList.map(eachCard => (
-          <CardItem cardDetails={eachCard} key={eachCard.id} />
+        {cardsList.map(each => (
+          <CardItem CardDetails={each} key={each.id} />
         ))}
+        {/* {cardsList.map(eachCard => (
+          <CardItem cardDetails={eachCard} key={eachCard.id} />
+        ))} */}
       </ul>
     </div>
   </div>
